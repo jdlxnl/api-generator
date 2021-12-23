@@ -1,0 +1,34 @@
+{
+    "name": "jdlx/api-generator",
+    "description": "Tools for laravel",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jeroen de Lau",
+            "email": "jeroen.delau@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jdlx\\ApiGenerator\\JdlxApiGeneratorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jdlx\\ApiGenerator\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/dbal": "^3.0",
+        "laravel/sanctum": "^2.9",
+        "spatie/laravel-permission": "^4.0",
+        "jdlxnl/generator": "^1.0"
+    },
+    "repositories": [
+        { "name": "jdlxnl/generator", "type": "vcs", "url": "https://github.com/jdlxnl/generator" },
+        { "name": "jdlxnl/jdlx", "type": "vcs", "url": "https://github.com/jdlxnl/jdlx" }
+    ]
+}
