@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4c55dd425c74aec5cf657ecba26ab71",
+    "content-hash": "c36c7a06e927ce9869cfe5d3e8a31e74",
     "packages": [
         {
             "name": "brick/math",
@@ -1059,16 +1059,16 @@
         },
         {
             "name": "jdlxnl/generator",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdlxnl/generator.git",
-                "reference": "a4314375192ac64780910b13bfe6ebb937d5386f"
+                "reference": "de26d67acc49fe4c9bcd88018a419b2a4a0e437e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdlxnl/generator/zipball/a4314375192ac64780910b13bfe6ebb937d5386f",
-                "reference": "a4314375192ac64780910b13bfe6ebb937d5386f",
+                "url": "https://api.github.com/repos/jdlxnl/generator/zipball/de26d67acc49fe4c9bcd88018a419b2a4a0e437e",
+                "reference": "de26d67acc49fe4c9bcd88018a419b2a4a0e437e",
                 "shasum": ""
             },
             "require": {
@@ -1084,8 +1084,9 @@
                     "Jdlx\\Generator\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -1093,25 +1094,25 @@
                     "email": "jeroen.delau@gmail.com"
                 }
             ],
-            "description": "Foundation for file generation",
+            "description": "Placeholder for file generation",
             "support": {
-                "source": "https://github.com/jdlxnl/generator/tree/1.0.0",
-                "issues": "https://github.com/jdlxnl/generator/issues"
+                "issues": "https://github.com/jdlxnl/generator/issues",
+                "source": "https://github.com/jdlxnl/generator/tree/1.0.1"
             },
-            "time": "2021-12-23T09:10:15+00:00"
+            "time": "2021-12-23T10:47:54+00:00"
         },
         {
             "name": "jdlxnl/jdlx",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdlxnl/jdlx.git",
-                "reference": "940cfec9c6cd06ed754244df251b05f65d8634a8"
+                "reference": "29b89c4d8076bb19d7adef324e36a244041cee49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdlxnl/jdlx/zipball/940cfec9c6cd06ed754244df251b05f65d8634a8",
-                "reference": "940cfec9c6cd06ed754244df251b05f65d8634a8",
+                "url": "https://api.github.com/repos/jdlxnl/jdlx/zipball/29b89c4d8076bb19d7adef324e36a244041cee49",
+                "reference": "29b89c4d8076bb19d7adef324e36a244041cee49",
                 "shasum": ""
             },
             "require": {
@@ -1119,6 +1120,7 @@
                 "fakerphp/faker": "^1.17",
                 "laravel/framework": "^8.12",
                 "laravel/sanctum": "^2.9",
+                "php": ">=8",
                 "phpunit/phpunit": "^9.5",
                 "spatie/laravel-permission": "^4.0"
             },
@@ -1135,8 +1137,9 @@
                     "Jdlx\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
@@ -1144,12 +1147,12 @@
                     "email": "jeroen.delau@gmail.com"
                 }
             ],
-            "description": "Foundation for rest APIs in laravel",
+            "description": "Foundation for rest APIs in Laravel",
             "support": {
-                "source": "https://github.com/jdlxnl/jdlx/tree/1.0.0",
-                "issues": "https://github.com/jdlxnl/jdlx/issues"
+                "issues": "https://github.com/jdlxnl/jdlx/issues",
+                "source": "https://github.com/jdlxnl/jdlx/tree/1.0.1"
             },
-            "time": "2021-12-23T08:14:30+00:00"
+            "time": "2021-12-23T09:45:50+00:00"
         },
         {
             "name": "laravel/framework",

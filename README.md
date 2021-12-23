@@ -1,15 +1,7 @@
-## Installation
-Add the package by loading it through composer.
+# Description
+Placeholder for api-generator
 
-Add this repository to your composer.json
-```json
-{
-    "repositories": [
-        { "name": "jdlxnl/api-generator", "type": "vcs", "url": "https://github.com/jdlxnl/api-generator" },
-        { "name": "jdlxnl/jdlx", "type": "vcs", "url": "https://github.com/jdlxnl/jdlx" }
-    ]
-}
-```
+## Installation
 
 ```shell
 composer require jdlxnl/api-generator

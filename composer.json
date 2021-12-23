@@ -1,8 +1,8 @@
 {
-    "name": "jdlx/api-generator",
-    "description": "Tools for laravel",
+    "name": "jdlxnl/api-generator",
+    "description": "Placeholder for api-generator",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jeroen de Lau",
@@ -26,9 +26,5 @@
         "laravel/sanctum": "^2.9",
         "spatie/laravel-permission": "^4.0",
         "jdlxnl/generator": "^1.0"
-    },
-    "repositories": [
-        { "name": "jdlxnl/generator", "type": "vcs", "url": "https://github.com/jdlxnl/generator" },
-        { "name": "jdlxnl/jdlx", "type": "vcs", "url": "https://github.com/jdlxnl/jdlx" }
-    ]
+    }
 }
