@@ -1,32 +1,16 @@
-###### Package
-
+## Installation
 Add the package by loading it through composer.
 
+Add this repository to your composer.json
 ```json
-
 {
-    "require": {
-        "jdlx/jdlx": "*"
-    },
-    
-    "require-dev" : {
-        "jdlx/generator": "*",
-        "jdlx/api-generator": "*"
-    },
-    
     "repositories": [
-        {
-            "type": "path",
-            "url": "./jdlx/Foundation"
-        },
-        {
-            "type": "path",
-            "url": "./jdlx/Generator"
-        },
-        {
-            "type": "path",
-            "url": "./jdlx/ApiGenerator"
-        }
+        { "name": "jdlxnl/api-generator", "type": "vcs", "url": "https://github.com/jdlxnl/api-generator" },
+        { "name": "jdlxnl/jdlx", "type": "vcs", "url": "https://github.com/jdlxnl/jdlx" }
     ]
 }
+```
+
+```shell
+composer require jdlxnl/api-generator
 ```
